@@ -106,5 +106,5 @@ Power-to-weight vs wing loading sizing diagram showing governing constraints (st
 
 ## Team
 
-6-person team, MAE 155A — Aircraft Design, UC San Diego (Fall 2024).
+6-person team, MAE 155A — Aircraft Design, UC San Diego (Winter 2026).
 Juan Manuel Sanchez contributed aerodynamic analysis, MATLAB sizing code, and dynamic stability analysis.
