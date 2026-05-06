@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# MATLAB autosave / temp
+*.asv
+*.m~
+*.autosave
+*.fig
+
+# SolidWorks source files (use drawing PDFs and images instead)
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+
+# Weekly in-class sessions (not portfolio material)
+Design Studio (Friday_s w- prof)/
+
+# Rough notes and generated outputs
+Research.docx
+Matlab/computedWeightFractions_2026-01-27_1329.txt
+
+# Duplicate CAD folders (keeping Drawings/ PDFs and CoDR images only)
+CAD files /V1/
+CAD files /CDR/
+CAD files /CoDR/
+CoDR/CoDR CAD/
