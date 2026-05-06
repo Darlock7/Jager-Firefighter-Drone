@@ -4,6 +4,8 @@ Conceptual design of an autonomous VTOL fixed-wing drone for wildfire suppressio
 
 The drone is sized to deliver two fire suppression munitions to a target 1.5 miles away within 180 seconds of takeoff, operating under FAA Part 107 altitude restrictions (400 ft AGL). The design uses a hybrid VTOL architecture — multi-rotor hover for takeoff and payload delivery, fixed-wing cruise for range efficiency.
 
+![Jäger deploying fire suppression munitions](images/jager_render_hero.png)
+
 ---
 
 ## Mission Profile
@@ -21,6 +23,12 @@ The mission is time-critical: from launch to first payload release in under 3 mi
 ![Mission Profile](CoDR/Improve%20Matlab%20Figures/missionprofiles.png)
 
 ---
+
+## Design
+
+| Front view | Side profile |
+|---|---|
+| ![Front](images/jager_render_front.png) | ![Side](images/jager_render_side.png) |
 
 ## Key Design Parameters
 
