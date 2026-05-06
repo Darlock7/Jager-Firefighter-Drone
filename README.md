@@ -1,8 +1,12 @@
-# Jäger — Firefighter VTOL Drone
+# Jäger-QRF — Rapid Response Firefighter VTOL Drone
 
-Conceptual design of an autonomous VTOL fixed-wing drone for wildfire suppression, developed as a 6-person team in MAE 155A at UC San Diego.
+Wildfires and structural fires can escalate in minutes — often before ground crews arrive. Existing aerial solutions such as helicopters and airtankers are typically not deployed until a fire has fully developed, requiring significant mobilization time, trained flight crews, and high operational costs. Small multirotor UAVs offer faster response but are limited by range and endurance, while conventional fixed-wing UAVs cannot hover for precise payload deployment.
 
-The drone is sized to deliver two fire suppression munitions to a target 1.5 miles away within 180 seconds of takeoff, operating under FAA Part 107 altitude restrictions (400 ft AGL). The design uses a hybrid VTOL architecture — multi-rotor hover for takeoff and payload delivery, fixed-wing cruise for range efficiency.
+**Jäger-QRF** is a conceptual rapid-response UAV designed to fill this gap. Autonomously deployed from a fire station, it cruises at 51.4 mph to arrive at the target ahead of ground vehicles, transitions to stable hover, and deploys two fire suppression munitions — each capable of suppressing a fire within a 3-meter radius — within 180 seconds of takeoff. After delivery, it returns to base, where a single operator can rearm and recharge it for the next sortie.
+
+The hybrid VTOL architecture is the key design decision: a quadcopter configuration handles takeoff, hover, and landing without a runway, while two aft rotors tilt aft in forward flight and a fixed wing carries most of the cruise lift — significantly reducing power demand compared to hover-only flight. A forward-mounted FLIR turret provides thermal imaging for target identification in low-visibility fire environments.
+
+Developed as a 6-person team project in MAE 155A — Aircraft Design at UC San Diego, the design is grounded in full aerodynamic, propulsion, structural, stability, and cost analyses. The manufacturing cost is estimated at $2,637 per unit with a break-even production quantity of 251 units — less than 1% of the approximately 27,000 fire departments in the United States.
 
 ![Jäger deploying fire suppression munitions](images/jager_render_hero.png)
 
